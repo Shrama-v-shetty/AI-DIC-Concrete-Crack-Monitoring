@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+
+# Raw image dataset
+Dataset/BGSL/
+Dataset/BGSL_ROI/
+
+# Generated DIC outputs
+Dataset/Stage9_Full_Sequential_DIC/
+Dataset/Stage10_DIC_Excel_Integration/
+Dataset/Stage13_Integrated_Event_Analysis/
+Dataset/Stage14_Strong_Events/
+Dataset/Stage15_Spatial_Event_Validation/
+Dataset/Stage16_Event_Classification/
+Dataset/Stage17_Final_Event_Synthesis/
+
+# Generated results
+results/
+
+# Large experimental data
+experimental_data/
+
+# Temporary/output files
+*.csv
+*.xlsx
+*.xls
+*.tif
+*.tiff
+*.png
+*.jpg
+*.jpeg
+
+# Streamlit/cache
+.streamlit/
+
+# Entire generated dataset/output directory
+Dataset/Stage9_Full_Sequential_DIC/
+Dataset/Stage10_DIC_Excel_Integration/
+Dataset/Stage13_Integrated_Event_Analysis/
+Dataset/Stage14_Strong_Events/
+Dataset/Stage15_Spatial_Event_Validation/
+Dataset/Stage16_Event_Classification/
+Dataset/Stage17_Final_Event_Synthesis/
